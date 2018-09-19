@@ -41,6 +41,11 @@ Create funnels by creating step by step conditions to get conversion rates.
 
 ![App Insights Funnels](https://user-images.githubusercontent.com/1880480/45675730-e5e66380-bb27-11e8-9b02-5dd4a19d2c2c.PNG)
 
+#### Retention
+Review returning users over a period of time.
+
+![App Insights Retention](https://user-images.githubusercontent.com/1880480/45741886-97e96280-bbf0-11e8-9f15-1a8cdd13e494.PNG)
+
 ## Custom visualization of Unity UI and MR telemetry 
 
 To create custom visualizations using all the data collected by Application Insights you can use the [Ibex Dashboard](https://github.com/Azure/ibex-dashboard). Fork the project and copy the [Unity UI template](https://gist.github.com/deadlyfingers/2d66cd04ad34a23fc5f5ec006d0fff12) or [MR template](https://gist.github.com/deadlyfingers/e664aaccb748be2f332f462615f6a090) file into the `server/dashboards/preconfigured` directory. You should then be able to create your own dashboard by using these templates in the app.

@@ -1,30 +1,20 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SceneScript : MonoBehaviour {
+public class SceneScript : MonoBehaviour
+{
+  public void LoadSceneUI ()
+  {
+    LoadScene ("Scene-UI");
+  }
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+  public void LoadSceneMR ()
+  {
+    LoadScene ("Scene-MR");
+  }
 
-    public void LoadSceneUI()
-    {
-        LoadScene("Scene-UI");
-    }
-
-    public void LoadSceneMR()
-    {
-        LoadScene("Scene-MR");
-    }
-
-    private void LoadScene(string sceneName)
-    {
-        SceneManager.LoadScene(sceneName, LoadSceneMode.Single);
-    }
+  private void LoadScene (string sceneName)
+  {
+    SceneManager.LoadScene (sceneName, LoadSceneMode.Single);
+  }
 }

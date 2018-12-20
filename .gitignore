@@ -44,3 +44,7 @@ Assets/Plugins
 
 # Ignore git submodules meta files
 csDelaunay.meta
+
+# Unity Packages
+#Assets/UnityPackages
+Logs/
